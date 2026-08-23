@@ -1,0 +1,7 @@
+RequestID,RequestType,Complete,RiskLevel,RequiresJudgement,CustomerTier
+SR1001,Address update,Yes,Low,No,Standard
+SR1002,Refund exception,Yes,High,Yes,Gold
+SR1003,Password reset,Yes,Low,No,Standard
+SR1004,Complaint escalation,No,Medium,Yes,Gold
+SR1005,Statement request,Yes,Low,No,Standard
+SR1006,Account closure,Yes,High,Yes,Standard

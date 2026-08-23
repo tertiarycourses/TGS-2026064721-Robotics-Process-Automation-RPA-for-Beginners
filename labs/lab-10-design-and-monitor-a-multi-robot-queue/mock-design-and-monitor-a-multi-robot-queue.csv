@@ -1,0 +1,9 @@
+TransactionID,Priority,EstimatedMinutes,Attempt,Outcome,ExceptionType
+Q8001,High,3.2,1,Successful,
+Q8002,Normal,4.8,1,Failed,System
+Q8003,Normal,2.5,2,Successful,System
+Q8004,High,6.1,1,Failed,Business
+Q8005,Normal,3.7,1,Successful,
+Q8006,Low,5.4,1,Successful,
+Q8007,High,2.9,1,Successful,
+Q8008,Normal,4.2,3,Failed,System

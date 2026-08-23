@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Activity mc:Ignorable="sap sap2010" x:Class="Main"
+ xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities"
+ xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+ xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities"
+ xmlns:p="http://schemas.microsoft.com/netfx/2009/xaml/activities"
+ xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation"
+ xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation"
+ xmlns:ui="http://schemas.uipath.com/workflow/activities"
+ xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <x:Members><x:Property Name="in_DataFile" Type="InArgument(x:String)" /></x:Members>
+  <mva:VisualBasic.Settings>Assembly references and imported namespaces serialized as XML namespaces</mva:VisualBasic.Settings>
+  <Sequence DisplayName="Assess an RPA Opportunity and Build a First Sequence">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:String" Default="mock-assess-an-rpa-opportunity-and-build-a-first-sequence.csv" Name="dataFile" />
+      <Variable x:TypeArguments="x:String" Default="Lab 1: Assess an RPA Opportunity and Build a First Sequence | Replace this starter message with the validated workflow described in README.md" Name="resultMessage" />
+    </Sequence.Variables>
+    <ui:LogMessage DisplayName="Log lab start" Level="Info" Message="[resultMessage]" />
+    <WriteLine DisplayName="Write evidence message" Text="[&quot;Data file: &quot; + If(String.IsNullOrWhiteSpace(in_DataFile), dataFile, in_DataFile)]" />
+  </Sequence>
+</Activity>

@@ -1,0 +1,13 @@
+.env
+.DS_Store
+.claude/
+.codex/
+node_modules
+reference/
+build/
+qa/
+courseware/
+assessment/
+*.inspect.ndjson
+*.log
+*.tmp

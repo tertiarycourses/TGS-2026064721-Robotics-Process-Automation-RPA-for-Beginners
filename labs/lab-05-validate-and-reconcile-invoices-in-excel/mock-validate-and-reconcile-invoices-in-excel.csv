@@ -1,0 +1,7 @@
+InvoiceID,Supplier,InvoiceDate,Quantity,UnitPrice,TaxRate,ExpectedStatus
+INV4001,Orchid Supplies,2026-08-01,12,18.5,0.09,Valid
+INV4002,Harbour Tech,2026-08-02,4,820.0,0.09,Valid
+INV4003,,2026-08-03,9,45.0,0.09,Review
+INV4004,Lion City Print,2026-08-04,-2,120.0,0.09,Rejected
+INV4005,Jade Office,2026-08-05,25,6.4,0.09,Valid
+INV4006,Meridian Services,,1,1550.0,0.09,Review

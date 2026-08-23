@@ -1,0 +1,6 @@
+ProcessID,ProcessName,MonthlyVolume,RuleClarity,DigitalInput,ExceptionRate,Owner
+P001,Supplier invoice entry,850,High,Yes,0.06,Finance
+P002,Customer complaint judgement,120,Low,Partial,0.42,Service
+P003,Password reset intake,620,High,Yes,0.03,IT
+P004,Contract negotiation,18,Low,Partial,0.55,Legal
+P005,Daily sales report consolidation,310,High,Yes,0.08,Sales Ops

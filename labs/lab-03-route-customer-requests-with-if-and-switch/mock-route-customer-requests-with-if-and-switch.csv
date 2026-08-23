@@ -1,0 +1,7 @@
+RequestID,Category,Priority,CustomerTier,ExpectedQueue
+CR2001,Billing,High,Gold,Billing-Priority
+CR2002,Technical,Normal,Standard,Technical
+CR2003,General,Normal,Standard,General
+CR2004,Billing,Normal,Standard,Billing
+CR2005,Technical,High,Gold,Technical-Priority
+CR2006,Unknown,Normal,Standard,Manual-Review

@@ -1,0 +1,7 @@
+TransactionID,FileName,Exists,Locked,ContentValid,ExpectedOutcome
+TX6001,invoice-001.csv,Yes,No,Yes,Processed
+TX6002,invoice-002.csv,No,No,Unknown,BusinessException
+TX6003,invoice-003.csv,Yes,Yes,Yes,RetryThenProcessed
+TX6004,invoice-004.csv,Yes,No,No,BusinessException
+TX6005,invoice-005.csv,Yes,No,Yes,Processed
+TX6006,invoice-006.csv,Yes,Yes,No,SystemException

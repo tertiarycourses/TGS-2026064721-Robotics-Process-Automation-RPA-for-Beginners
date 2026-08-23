@@ -1,0 +1,7 @@
+OrderID,Quantity,UnitPrice,Country,ExpectedBand,ExpectedTotal
+O5001,2,45.0,SG,Standard,90.0
+O5002,20,75.0,SG,Priority,1500.0
+O5003,5,240.0,MY,Priority,1200.0
+O5004,1,18.0,SG,Standard,18.0
+O5005,8,125.0,SG,Priority,1000.0
+O5006,3,0.0,SG,Review,0.0

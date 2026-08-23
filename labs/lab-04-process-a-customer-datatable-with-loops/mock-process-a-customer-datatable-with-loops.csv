@@ -1,0 +1,7 @@
+CustomerID,Name,Age,SpendSGD,Email,ExpectedSegment
+C3001,Amira Lim,29,3200,amira@example.com,Growth
+C3002,Benjamin Ong,46,12800,ben@example.com,Premium
+C3003,Chloe Tan,33,760,,Review
+C3004,Dev Kumar,24,450,dev@example.com,Standard
+C3005,Elaine Wong,38,9100,elaine@example.com,Premium
+C3006,Faris Rahman,31,1750,faris@example.com,Growth
