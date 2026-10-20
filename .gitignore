@@ -6,8 +6,15 @@ node_modules
 reference/
 build/
 qa/
-courseware/
+# courseware/ is PUBLIC (deck, LP, LG); only its assessment/ and reference/ subfolders stay private
 assessment/
 *.inspect.ndjson
 *.log
 *.tmp
+
+# Facilitator Guide + Assessment Plan embed the answer keys and rubric:
+# trainer-only (Google Drive + TMS), never GitHub
+**/FG_*
+**/FG-*
+**/Assessment_Plan_*
+**/AP-*
